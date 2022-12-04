@@ -1,0 +1,57 @@
+{{#scope}}
+<html>
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<table cellpadding="0" cellspacing="10" class="body" width="100%">
+    <tr>
+        <td align="center">
+            <table cellpadding="0" cellspacing="0" class="content" width="100%">
+                <tr>
+                    <td class="padding">
+                        <table cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td width="80">
+                                    <a href="{{siteUrl}}">
+                                        <img height="64" src="{{logoUrl}}"
+                                             style="border-radius: 32px 32px 32px 32px; vertical-align: middle; padding=2px"
+                                             class="border"
+                                             width="64"/></a>
+                                </td>
+                                <td>
+                                    <div class="text-larger">{{{siteName}}}</div>
+                                    <div class="text-small">{{{category}}}</div>
+                                    <div class="text-small">{{{location}}}</div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="border-top padding">
+                        {{{body}}}
+                    </td>
+                </tr>
+                <tr>
+                    <td class="border-top padding">
+                        <table border="0" cellpadding="0" cellspacing="5" width="100%">
+                            <tr>
+                                <td align="center" class="text-small">
+                                    Powered by Wutsi.
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+
+</body>
+</html>
+{{/scope}}
