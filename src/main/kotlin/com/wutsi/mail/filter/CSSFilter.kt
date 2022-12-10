@@ -90,6 +90,14 @@ class CSSFilter : MailFilter {
                 padding: 10px 10px 10px 10px;
             """.trimIndent(),
 
+            ".padding-top" to """
+                padding-top: 10px;
+            """.trimIndent(),
+
+            ".padding-bottom" to """
+                padding-bottom: 10px;
+            """.trimIndent(),
+
             ".border-top" to """
                 border-top: 1px solid lightgray;
             """.trimIndent(),
