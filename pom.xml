@@ -4,7 +4,7 @@
 
     <artifactId>mail-engine</artifactId>
     <groupId>com.wutsi.mail</groupId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <name>mail-engine</name>
@@ -65,7 +65,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/wutsi/mail-engine.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>mail-engine-1.0.1</tag>
     </scm>
     <distributionManagement>
         <repository>
