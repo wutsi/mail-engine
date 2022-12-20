@@ -53,6 +53,20 @@ class CSSFilter : MailFilter {
                 text-decoration: none;
             """.trimIndent(),
 
+            ".btn-success" to """
+                display: inline-block;
+                font-weight: 400;
+                color: #FFFFFF;
+                background-color: #4CAF50;
+                text-align: center;
+                vertical-align: middle;
+                border: 1px solid transparent;
+                padding: .375rem .75rem;
+                font-size: 1rem;
+                line-height: 1.5;
+                text-decoration: none;
+            """.trimIndent(),
+
             ".btn-secondary" to """
                 display: inline-block;
                 font-weight: 400;
