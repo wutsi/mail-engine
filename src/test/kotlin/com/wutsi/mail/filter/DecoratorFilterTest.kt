@@ -73,7 +73,7 @@ internal class DecoratorFilterTest {
                 </body>
                 </html>
             """.trimIndent(),
-            result.trimIndent()
+            result.trimIndent(),
         )
     }
 }

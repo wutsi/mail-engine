@@ -135,7 +135,7 @@ class CSSFilter : MailFilter {
 
             ".success" to """
                 color: #4CAF50
-            """.trimIndent()
+            """.trimIndent(),
         )
     }
 

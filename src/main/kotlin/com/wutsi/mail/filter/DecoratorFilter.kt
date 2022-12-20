@@ -17,8 +17,8 @@ class DecoratorFilter : MailFilter {
                 mustache.execute(
                     writer,
                     mapOf(
-                        "scope" to scope(body, context)
-                    )
+                        "scope" to scope(body, context),
+                    ),
                 )
                 writer.flush()
                 return writer.toString()
@@ -33,6 +33,6 @@ class DecoratorFilter : MailFilter {
         "location" to context.merchant.location,
         "category" to context.merchant.category,
         "assetUrl" to context.assetUrl,
-        "body" to body
+        "body" to body,
     )
 }

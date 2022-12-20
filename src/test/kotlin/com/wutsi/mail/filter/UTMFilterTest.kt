@@ -30,7 +30,7 @@ internal class UTMFilterTest {
                     </body>
                 </html>
             """.trimIndent(),
-            result.trimIndent()
+            result.trimIndent(),
         )
     }
 }

@@ -8,7 +8,7 @@ object Fixtures {
             name = "Maison H",
             url = "https://www.com/u/1",
             category = "Bakery",
-            location = "Yaounde, Cameroon"
-        )
+            location = "Yaounde, Cameroon",
+        ),
     )
 }

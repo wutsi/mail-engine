@@ -22,16 +22,16 @@ internal class CSSFilterTest {
 
         assertEquals(
             """
-                <html> 
+                <html>
                   <head></head>
-                  <body> 
+                  <body>
                     <h1 style="font-size: 1.75em;">
-                      Hello  
+                      Hello
                     </h1>
                   </body>
                 </html>
             """.trimIndent(),
-            result.trimIndent()
+            result.trimIndent(),
         )
     }
 }

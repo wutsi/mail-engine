@@ -5,5 +5,5 @@ data class Merchant(
     val url: String,
     val logoUrl: String?,
     val category: String? = null,
-    val location: String? = null
+    val location: String? = null,
 )

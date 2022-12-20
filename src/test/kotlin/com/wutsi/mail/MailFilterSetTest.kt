@@ -12,8 +12,8 @@ internal class MailFilterSetTest {
         filters = listOf(
             DecoratorFilter(),
             CSSFilter(),
-            UTMFilter()
-        )
+            UTMFilter(),
+        ),
     )
 
     @Test
