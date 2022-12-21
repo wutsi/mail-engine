@@ -30,22 +30,11 @@ internal class DecoratorFilterTest {
                             <table cellpadding="0" cellspacing="0" class="content" width="100%">
                                 <tr>
                                     <td class="padding">
-                                        <table cellpadding="0" cellspacing="0" width="100%">
-                                            <tr>
-                                                <td width="80">
-                                                    <a href="https://www.com/u/1">
-                                                        <img height="64" src="https://ik.imagekit.io/cx8qxsgz4d/user/12/picture/tr:w-64,h-64,fo-face/023bb5c8-7b09-4f2f-be51-29f5c851c2c0-scaled_image_picker1721723356188894418.png"
-                                                             style="border-radius: 32px 32px 32px 32px; vertical-align: middle; padding=2px"
-                                                             class="border"
-                                                             width="64"/></a>
-                                                </td>
-                                                <td>
-                                                    <div class="text-larger">Maison H</div>
-                                                    <div class="text-small">Bakery</div>
-                                                    <div class="text-small">Yaounde, Cameroon</div>
-                                                </td>
-                                            </tr>
-                                        </table>
+                                        <a href="https://www.com/u/1">
+                                            <img height="64" src="https://ik.imagekit.io/cx8qxsgz4d/user/12/picture/tr:w-64,h-64,fo-face/023bb5c8-7b09-4f2f-be51-29f5c851c2c0-scaled_image_picker1721723356188894418.png"
+                                                 style="border-radius: 32px 32px 32px 32px; vertical-align: middle; padding=2px"
+                                                 class="border"
+                                                 width="64"/></a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -56,6 +45,13 @@ internal class DecoratorFilterTest {
                                 <tr>
                                     <td class="border-top padding">
                                         <table border="0" cellpadding="0" cellspacing="5" width="100%">
+                                            <tr>
+                                                <td align="center" class="text-small">
+                                                    <span class="text-small">Maison H</span>
+                                                    - <span class="text-small">Bakery</span>
+                                                    - <span class="text-small">Yaounde, Cameroon</span>
+                                                </td>
+                                            </tr>
                                             <tr>
                                                 <td align="center" class="text-small">
                                                     Powered by Wutsi.

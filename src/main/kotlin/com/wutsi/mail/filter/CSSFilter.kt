@@ -96,6 +96,10 @@ class CSSFilter : MailFilter {
                 margin: 0
             """.trimIndent(),
 
+            ".no-padding" to """
+                padding: 0
+            """.trimIndent(),
+
             ".border" to """
                 border: 1px solid lightgray;
             """.trimIndent(),
