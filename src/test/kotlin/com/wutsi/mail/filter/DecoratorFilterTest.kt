@@ -29,7 +29,7 @@ internal class DecoratorFilterTest {
                         <td align="center">
                             <table cellpadding="0" cellspacing="0" class="content" width="100%">
                                 <tr>
-                                    <td class="padding">
+                                    <td align="center" class="padding">
                                         <a href="https://www.com/u/1">
                                             <img height="64" src="https://ik.imagekit.io/cx8qxsgz4d/user/12/picture/tr:w-64,h-64,fo-face/023bb5c8-7b09-4f2f-be51-29f5c851c2c0-scaled_image_picker1721723356188894418.png"
                                                  style="border-radius: 32px 32px 32px 32px; vertical-align: middle; padding=2px"
@@ -38,7 +38,7 @@ internal class DecoratorFilterTest {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="border-top padding">
+                                    <td class="border-top">
                                         <p>Hello world</p>
                                     </td>
                                 </tr>
