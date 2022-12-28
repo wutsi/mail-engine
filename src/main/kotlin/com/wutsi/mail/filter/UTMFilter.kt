@@ -22,7 +22,7 @@ class UTMFilter : MailFilter {
     }
 
     private fun appendUTMParametersToURL(url: String): String {
-        val params = "utm_source=email"
+        val params = "utm_medium=email"
         return if (url.contains('?')) "$url&$params" else "$url?$params"
     }
 }

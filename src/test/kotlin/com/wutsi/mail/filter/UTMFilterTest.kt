@@ -25,8 +25,8 @@ internal class UTMFilterTest {
             """
                 <html>
                     <body>
-                        <a href="https://www.google.ca?utm_source=email">Hello</a>
-                        <a href="https://www.yahoo.ca?q=test&utm_source=email">World</a>
+                        <a href="https://www.google.ca?utm_medium=email">Hello</a>
+                        <a href="https://www.yahoo.ca?q=test&utm_medium=email">World</a>
                     </body>
                 </html>
             """.trimIndent(),
